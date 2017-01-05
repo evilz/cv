@@ -1,14 +1,15 @@
-<header class="header">
-  <h1 class="header-title">
-    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}<span>&#39;s blog</span></a>
-  </h1>
-  <nav class="header-nav">
-    {% for nav in site.nav %}
-    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}">{{ nav.name }}</a>
-    {% else %}
-    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-    {% endif %}
-    {% endfor %}
-  </nav>
-</header>
+
+
+	<header class="row">
+			<div class="col-sm-12">
+				<ul class="header-info list-unstyled pull-right">
+					<li><i class="fa fa-phone" aria-hidden="true"></i> {{ site.author.phone }}</li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.author.email }}</li>
+					<li><i class="fa fa-globe" aria-hidden="true"></i> {{ site.authorblog }}</li>
+					<li><i class="fa fa-github" aria-hidden="true"></i> {{ site.author.github }}</li>
+				</ul>
+				<img src="{{ site.baseurl }}/assets/img/vincent-bourdon-nb.jpg" alt="..." class="header-photo pull-right img-thumbnail img-circle">
+				<h1> {{ site.author.name }}</h1>
+				<h4 style="padding-left:15px"> {{ site.author.jobtitle }}</h4>
+			</div>
+		</header>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+  
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png" />
+	<link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Material Dashboard by Creative Tim</title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
+	<!-- Bootstrap core CSS     -->
+	<link href="/assets/css/bootstrap-noprint.min.css" rel="stylesheet" media="all" />
+	<!--  Material Dashboard CSS    -->
+	<link href="/assets/css/material-dashboard.css" rel="stylesheet" />
+	
+	
+	<link href="/assets/css/style.css" rel="stylesheet" />
+	<!--     Fonts and icons     -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+	<!-- Print CSS -->
+	<link href="/assets/css/print.css" rel="stylesheet" media="print" />
+	
+</head>
+
+
+<body>
+  <div class="container">
+    
+    
+
+	<header class="row">
+			<div class="col-sm-12">
+				<ul class="header-info list-unstyled pull-right">
+					<li><i class="fa fa-phone" aria-hidden="true"></i> 06.45.78.08.81</li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i> evilznet@gmail.com</li>
+					<li><i class="fa fa-globe" aria-hidden="true"></i> </li>
+					<li><i class="fa fa-github" aria-hidden="true"></i> github.com/evilz</li>
+				</ul>
+				<img src="/assets/img/vincent-bourdon-nb.jpg" alt="..." class="header-photo pull-right img-thumbnail img-circle">
+				<h1> Vincent BOURDON</h1>
+				<h4 style="padding-left:15px"> .net developer</h4>
+			</div>
+		</header>
+
+
+    <header>
+  <h1 class="header-small">
+    <a href="http://localhost:4000">Kiko Plus</a>
+  </h1>
+</header>
+<div class="page">
+  <h1 class="page-title">About</h1>
+  <p>This blog is demo blog for <a href="https://github.com/AWEEKJ/Kiko-plus">Kiko Plus</a></p>
+
+<p>This theme is inspired by <a href="http://github.com/gfjaru/Kiko">Kiko</a> theme, powered by <a href="http://jekyllrb.com">Jekyll</a>, hosted on <a href="https://pages.github.com">Github Pages</a>.</p>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Disqus comment system</li>
+  <li>Google analytics</li>
+  <li>Pagination support</li>
+  <li>Custom tags</li>
+  <li>SEO support</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<h4 id="method-1-new-masters-repository-the-best">Method 1: new master’s repository (The Best)</h4>
+
+<ol>
+  <li>First <a href="https://github.com/AWEEKJ/Kiko-plus/fork">fork</a> it.</li>
+  <li>Change your forked repository name <em>Kiko-plus</em> to <strong>USERNAME.github.io</strong> where
+<strong>USERNAME</strong> is your github user name.</li>
+  <li>Access your new blog via <a href="https://username.github.io">https://username.github.io</a>.</li>
+  <li><a href="#configuration">See configuration</a>.</li>
+</ol>
+
+<h4 id="method-2-gh-pages-in-existing-repository">Method 2: gh-pages in existing repository</h4>
+
+<ol>
+  <li>Create a new branch called <em>gh-pages</em> in the repository where you want to add a template <a href="https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/">managing branches</a>.</li>
+  <li>From command line run <code>git clone https://github.com/AWEEKJ/Kiko-plus.git</code> - this will clone <em>Kiko-plus</em> template to your computer.</li>
+  <li>Create new branch <code>git checkout -b gh-pages</code> where <em>gh-pages</em> will be your branch name.</li>
+  <li>Add remote, which is your repo from the first step, to your new branch <code>git remote add gh-pages https://github.com/&lt;yourName&gt;/&lt;yourMaster&gt;/gh-pages</code>. <em>yourName</em> is your account name and <em>yourMaster</em> is your repository.</li>
+  <li>Push new branch to remote <code>git push gh-pages</code>.</li>
+  <li>Update <code>_config.yml</code> file by changing <code>baseurl: "&lt;branchName&gt;"</code> <em>branchName</em> is your branch name where <em>gh-pages</em> resides. See <a href="#configuration">configuration</a>.</li>
+</ol>
+
+<h4 id="method-3-run-it-locally">Method 3: run it locally</h4>
+
+<ol>
+  <li>Download <a href="https://github.com/AWEEKJ/Kiko-plus/archive/master.zip">zip</a> or clone it <code>git clone https://github.com/AWEEKJ/Kiko-plus</code>.</li>
+  <li>Go inside folder and run <code>jekyll serve</code> or <code>bundle exec jekyll s</code> or <code>rake preview</code>. This will build a website which you can access <a href="https://localhost:4000">https://localhost:4000</a>. You need to have <a href="https://jekyllrb.com/docs/installation/">Jekyll</a> installed to do this.</li>
+</ol>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>All configuration is done via <code>_config.yml</code> file which you will find in your main repo folder. Change this <code>&lt;something&gt;</code> to yours.</p>
+
+<ul>
+  <li>Change this to your blog name.</li>
+</ul>
+
+<pre><code class="language-yml">name: &lt;blog-name&gt;
+</code></pre>
+
+<ul>
+  <li>Change this to your domain. <strong>NOTE</strong>- if running locally change this to <code>url: "https://localhost:4000"</code>.</li>
+</ul>
+
+<pre><code class="language-yml">url: "https://&lt;your-name&gt;.github.io"
+</code></pre>
+
+<ul>
+  <li>Change this to your branch name where <em>gh-pages</em> resides. !NOTE apply only if you used <strong>Method 2</strong> for installation.</li>
+</ul>
+
+<pre><code class="language-yml">baseurl: "/&lt;branch-name&gt;"
+</code></pre>
+
+<ul>
+  <li>These configuration in <code>author:</code> is for links to icons in footer. Modify <code>_includes/footer.html</code> to add more link icons.</li>
+</ul>
+
+<pre><code class="language-yml">author:
+  name:             your-name
+  facebook:         your-id
+  twitter:          your-id
+  github:           your-id
+  linkedin:         your-id
+  medium:           your-id
+  tumblr:           your-id
+  email:            your-id@your-email.com
+</code></pre>
+
+<ul>
+  <li>Change this to your Google Analytic ID.</li>
+</ul>
+
+<pre><code class="language-yml">google-analytics:
+  id:               your-id
+</code></pre>
+
+<ul>
+  <li>Change this to your Disqus ID.</li>
+</ul>
+
+<pre><code class="language-yml">disqus:
+  id:               your-id
+</code></pre>
+
+<h2 id="rakefile-usage">Rakefile Usage</h2>
+
+<pre><code class="language-bash">$ rake post title="A Title" [date="2015-08-16"] [tags=[tag1,tag2]]
+$ rake draft title="A Title" [date="2015-08-16"] [tags=[tag1,tag2]]
+$ rake preview
+</code></pre>
+
+<h2 id="license">License</h2>
+
+<p>This theme is released under MIT License.</p>
+
+</div>
+
+
+    	<footer class="footer" >
+		<div class="container-fluid">
+			<nav class="pull-left">
+				<ul>
+					
+				</ul>
+			</nav>
+			<p class="copyright pull-right">
+			
+			</p>
+		</div>
+	</footer>
+  </div>
+</body>
+</html>

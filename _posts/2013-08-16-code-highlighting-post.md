@@ -4,8 +4,11 @@ title: "Syntax Highlighting Post"
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 date: 2013-08-16
 tags: [sample post, code, highlighting]
-comments: true
-share: true
+
+category: "FrontWeb"
+job: "Developer Senior"
+date_range : "Mai 2014 – Juin 2015"
+icon: "sgcib.png"
 ---
 
 
