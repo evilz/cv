@@ -1,15 +1,51 @@
-
-
-	<header class="row">
-			<div class="col-sm-12">
-				<ul class="header-info list-unstyled pull-right">
+<div class="row">
+	<div class="col-md-8">
+		<div class="card skills">
+			<div class="card-header card-header-icon" data-background-color="green">
+                                    <i class="material-icons">done_all</i>
+                                </div>
+			<div class="card-content">
+				
+				<h4 class="card-title">SKILLS
+					<!-- - <small class="category">Complete your profile</small>-->
+				</h4>
+				<table class="table">
+					<tbody>
+						 {% include skill.html skillname=".net" size="100" color="rose" %}
+						  {% include skill.html skillname="Web" size="95" color="orange" %}
+						   {% include skill.html skillname="Mobilite" size="60" color="blue" %}
+						    {% include skill.html skillname="DevOps & Cloud" size="50" color="red"  %}
+							 {% include skill.html skillname="Crafts" size="85" color="green"  %}
+					</tbody>
+				</table>
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="card card-profile">
+			<div class="card-avatar">
+				<a href="#">
+					<img class="img" src="../../assets/img/vincent-bourdon-nb.jpg">
+				</a>
+			</div>
+			<div class="card-content">
+				<h6 class="category text-gray">{{ site.author.jobtitle }}</h6>
+				<h4 class="card-title">{{ site.author.name }}</h4>
+				<p class="description">
+					{{ site.author.story }}
+				</p>
+			</div>
+			<div class="card-footer">
+				<ul class="header-info list-unstyled text-left">
 					<li><i class="fa fa-phone" aria-hidden="true"></i> {{ site.author.phone }}</li>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.author.email }}</li>
-					<li><i class="fa fa-globe" aria-hidden="true"></i> {{ site.authorblog }}</li>
+					<li><i class="fa fa-globe" aria-hidden="true"></i> {{ site.author.blog }}</li>
 					<li><i class="fa fa-github" aria-hidden="true"></i> {{ site.author.github }}</li>
 				</ul>
-				<img src="{{ site.baseurl }}/assets/img/vincent-bourdon-nb.jpg" alt="..." class="header-photo pull-right img-thumbnail img-circle">
-				<h1> {{ site.author.name }}</h1>
-				<h4 style="padding-left:15px"> {{ site.author.jobtitle }}</h4>
 			</div>
-		</header>
+		</div>
+	</div>
+</div>
+
+</header>
