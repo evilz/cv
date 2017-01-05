@@ -4,7 +4,7 @@
 
 .header-info{
     margin: 20px auto;
-    width: 60%;
+    width: 45%;
 }
 
 .header-photo {
@@ -14,11 +14,12 @@
 .card-profile,
 .card-testimonial {
   margin-top: 25px;
-  height: 350px;
+  height: 480px;
+  float: right;
 }
 
 .skills{
-    height: 350px;
+    height: 300px;
 }
 
 .progress {
