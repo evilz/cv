@@ -34,3 +34,12 @@
         margin-top: 0;
     padding-bottom: 15px;
 }
+
+
+.mission {
+    margin-top:15px;
+}
+
+.mission:not(:last-child) {
+    border-bottom:1px solid #eeeeee;
+}
