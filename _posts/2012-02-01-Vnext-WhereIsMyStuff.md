@@ -7,7 +7,7 @@ tags:
 category: "mobilite"
 job: "Senior Developer"
 date_range : "Fev. 2012"
-icon: "Where is my stuff.png"
+icon: "where-is-my-stuff.png"
 ---
 
 Projet Where is my stuff
