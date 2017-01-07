@@ -61,8 +61,8 @@ Cette nouvelle version de l’application a été développé en parallèle dans
 
 </description>
 				<pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
-				<link>http://localhost:4000/cv/2014-02-01/SGCIB-CanalPlus-AngularJs/</link>
-				<guid isPermaLink="true">http://localhost:4000/cv/2014-02-01/SGCIB-CanalPlus-AngularJs/</guid>
+				<link>http://localhost:4000/cv/2014-02-01/CanalPlus-AngularJs/</link>
+				<guid isPermaLink="true">http://localhost:4000/cv/2014-02-01/CanalPlus-AngularJs/</guid>
 			</item>
 		
 			<item>
@@ -216,6 +216,47 @@ Application Windows 8 connectée a Facebook.
 				<pubDate>Sun, 01 May 2011 00:00:00 +0100</pubDate>
 				<link>http://localhost:4000/cv/2011-05-01/leetchi-azure/</link>
 				<guid isPermaLink="true">http://localhost:4000/cv/2011-05-01/leetchi-azure/</guid>
+			</item>
+		
+			<item>
+				<title>Troc des trains</title>
+				<description>&lt;p&gt;Conception de l’application mobile Windows Phone 7 du site www.trocdestrains.com (site spécialisé sur la revente de billet de train).
+Nominée au concours dans le cadre du salon Wouap Doo Apps Online Mobilequi s’est déroulé Porte de Versailles le 19 mai 2011. Troc des Trains a également eu la chance de se retrouver plusieurs fois en Application favorites sur la Market Place.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/cv/2011-02-01/TrocDesTrains-WinPhone/</link>
+				<guid isPermaLink="true">http://localhost:4000/cv/2011-02-01/TrocDesTrains-WinPhone/</guid>
+			</item>
+		
+			<item>
+				<title>Spie SA</title>
+				<description>&lt;p&gt;Projet Provisionning
+Audit d’une application ASP.net de gestion du SI (AD, Exchange, OCS, Partage) puis refonte complète.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Module de gestion des Utilisateurs et groupe de l’AD&lt;/li&gt;
+  &lt;li&gt;Module de gestion de la boite mail des utilisateurs&lt;/li&gt;
+  &lt;li&gt;Module de gestion de l’access au service OCS&lt;/li&gt;
+  &lt;li&gt;Ergonomie de site complete pour IE 6 et 7 &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Tue, 01 Feb 2011 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/cv/2011-02-01/Spie-Provisionning/</link>
+				<guid isPermaLink="true">http://localhost:4000/cv/2011-02-01/Spie-Provisionning/</guid>
+			</item>
+		
+			<item>
+				<title>TraceOne</title>
+				<description>&lt;p&gt;Projet FrontOffice utilisateurs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Développement de services génériques communs à toute la plateforme (éditeur générique de documents, gestion des documents,) et/ou de l’une des applications spécialisées de la suite, dont l’une des caractéristiques clés est le déploiement en mode SAAS (Software As A Service).&lt;/li&gt;
+  &lt;li&gt;Développement d’un module générique de filtres pour Reporting services en asp.net.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Fri, 01 May 2009 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/cv/2009-05-01/TraceOne/</link>
+				<guid isPermaLink="true">http://localhost:4000/cv/2009-05-01/TraceOne/</guid>
 			</item>
 		
 	</channel>
