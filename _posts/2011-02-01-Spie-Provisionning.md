@@ -10,7 +10,7 @@ tags:
 category: "backend"
 job: "Senior Developer"
 date_range : "Mars 2010 - Jan. 2011"
-icon: "spie.jpg"
+icon: "spie.png"
 ---
 
 Projet Provisionning
