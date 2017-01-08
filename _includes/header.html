@@ -1,19 +1,79 @@
-<div class="row">
-	<div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 col-xs-4 col-xs-push-8">
-		<div class="card card-profile">
-			<div class="card-avatar">
-				<a href="#">
-					<img class="img" src="assets/img/vincent-bourdon-nb.jpg">
-				</a>
+<header>
+	<div class="row hidden-print">
+		<div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 col-xs-4 col-xs-push-8">
+			<div class="card card-profile">
+				<div class="card-avatar">
+					<a href="#">
+						<img class="img" src="assets/img/vincent-bourdon-nb.jpg">
+					</a>
+				</div>
+				<div class="card-content">
+					<h6 class="category text-gray">{{ site.author.jobtitle }}</h6>
+					<h4 class="card-title">{{ site.author.name }}</h4>
+					<p class="description">
+						{{ site.author.story }}
+					</p>
+				</div>
+				<div class="card-footer">
+					<ul class="header-info list-unstyled text-left">
+						<li><i class="fa fa-phone" aria-hidden="true"></i> {{ site.author.phone }}</li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.author.email }}</li>
+						<li><i class="fa fa-globe" aria-hidden="true"></i> {{ site.author.blog }}</li>
+						<li><i class="fa fa-github" aria-hidden="true"></i> {{ site.author.github }}</li>
+					</ul>
+				</div>
 			</div>
-			<div class="card-content">
+		</div>
+		<div class="col-md-8 col-md-pull-4 col-sm-8 col-sm-pull-4 col-xs-8 col-xs-pull-4">
+			<div class="card skills">
+				<div class="card-header card-header-icon" data-background-color="green">
+					<i class="material-icons">done_all</i>
+				</div>
+				<div class="card-content">
+					<h4 class="card-title">SKILLS
+						<!-- - <small class="category">Complete your profile</small>-->
+					</h4>
+					<table class="table">
+						<tbody>
+							{% include skill.html skillname=".net" size="100" color="purple" %} {% include skill.html skillname="Web" size="95" color="orange"
+							%} {% include skill.html skillname="Mobilite" size="60" color="blue" %} {% include skill.html skillname="DevOps &
+							Cloud" size="50" color="red" %} {% include skill.html skillname="Crafts" size="85" color="green" %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4  col-md-pull-4 col-sm-4  col-sm-pull-4 col-xs-4  col-xs-pull-4">
+			<div class="card ">
+				<div class="card-content text-center">
+					<img style="height:100px;width:auto" src="assets/img/MCTS-NETFrame4WebApps-logo-BW.png">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4  col-md-pull-4 col-sm-4  col-sm-pull-4 ">
+			<div class="card ">
+				<div class="card-content  text-center">
+					<img style="height:100px;width:auto" src="assets/img/Special_ProgHTML5_Blk.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row visible-print-block">
+		<div class="col-xs-3 text-center">
+			<img  style="height:100px;width:auto" src="assets/img/MCTS-NETFrame4WebApps-logo-BW.png">
+		</div>
+		<div class="col-xs-3 text-center">
+			<img style="height:100px;width:auto" src="assets/img/Special_ProgHTML5_Blk.png">
+		</div>
+		<div class="col-xs-3 text-center">
+			<img class="img-circle" src="assets/img/vincent-bourdon-nb.jpg">
 				<h6 class="category text-gray">{{ site.author.jobtitle }}</h6>
 				<h4 class="card-title">{{ site.author.name }}</h4>
-				<p class="description">
-					{{ site.author.story }}
-				</p>
-			</div>
-			<div class="card-footer">
+			
+		</div>
+		<div class="col-xs-3">
 				<ul class="header-info list-unstyled text-left">
 					<li><i class="fa fa-phone" aria-hidden="true"></i> {{ site.author.phone }}</li>
 					<li><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.author.email }}</li>
@@ -21,41 +81,6 @@
 					<li><i class="fa fa-github" aria-hidden="true"></i> {{ site.author.github }}</li>
 				</ul>
 			</div>
-		</div>
+
 	</div>
-	<div class="col-md-8 col-md-pull-4 col-sm-8 col-sm-pull-4 col-xs-8 col-xs-pull-4">
-		<div class="card skills">
-			<div class="card-header card-header-icon" data-background-color="green">
-				<i class="material-icons">done_all</i>
-			</div>
-			<div class="card-content">
-				<h4 class="card-title">SKILLS
-					<!-- - <small class="category">Complete your profile</small>-->
-				</h4>
-				<table class="table">
-					<tbody>
-						{% include skill.html skillname=".net" size="100" color="purple" %} {% include skill.html skillname="Web" size="95" color="orange"
-						%} {% include skill.html skillname="Mobilite" size="60" color="blue" %} {% include skill.html skillname="DevOps & Cloud"
-						size="50" color="red" %} {% include skill.html skillname="Crafts" size="85" color="green" %}
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-	
-	<div class="col-md-4  col-md-pull-4 col-sm-4  col-sm-pull-4 col-xs-4  col-xs-pull-4">
-		<div class="card ">
-			<div class="card-content text-center">
-			<img style="height:100px;width:auto" src="assets/img/MCTS-NETFrame4WebApps-logo-BW.png" >
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4  col-md-pull-4 col-sm-4  col-sm-pull-4 col-xs-4  col-xs-pull-4">
-		<div class="card ">
-			<div class="card-content  text-center">
-			<img  style="height:100px;width:auto" src="assets/img/Special_ProgHTML5_Blk.png" >
-		</div>
-		</div>
-	</div>
-</div>
 </header>
