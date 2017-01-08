@@ -71,6 +71,11 @@ html {
 	box-shadow: none;
 }
 
+@media (max-width: 768px){
+.card-header {
+      width: 350px;
+    }
+
 .card-profile,
 .card-testimonial {
   margin-top: 40px;
