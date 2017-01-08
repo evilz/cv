@@ -53,14 +53,18 @@ html {
 	page-break-inside: avoid;
 }
 
-.container .mission-type:not(:first-child)
+.mission-type
  {
     margin-top: 50px;
+}
 
+.mission-type:first-child
+ {
+    margin-top: 0px;
 }
 
 .footer{
-    height:653px;
+  
 }
 
 .card{
