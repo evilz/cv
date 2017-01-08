@@ -2,9 +2,8 @@
 <div class="row mission-type">
     <div class="col-lg-12">
         <div class="card">
-            <div class="card-header card-header-text" style="width: 350px;" data-background-color="{{include.color}}">
-                <img style="float:left;height:70px;width:70px; margin-right:10px" src="assets/img/{{include.category}}.jpg"
-                />
+            <div class="card-header card-header-text"  data-background-color="{{include.color}}">
+                <img src="assets/img/{{include.category}}.jpg"                 />
                 <h4 class="card-title">{{include.title}}</h4>
                 <p class="category">{{include.subtitle}} </p>
             </div>
@@ -12,8 +11,7 @@
                 {% for post in site.categories[include.category] %}
 
                 <div class="mission" >
-                    <img alt="64x64" class="media-object pull-left" data-src="holder.js/64x64" style="margin-right:10px; width: 64px; height: 64px;"
-                        src="assets/img/{{post.icon}}" data-holder-rendered="true">
+                    <img alt="64x64" class="media-object pull-left" data-src="holder.js/64x64" src="assets/img/{{post.icon}}" data-holder-rendered="true">
                     <i class="pull-right">({{ post.date_range }})</i>
                     <h4 class="media-heading">{{ post.title }} </h4>
                     <p>{{ post.job }}</p>

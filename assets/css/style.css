@@ -31,7 +31,7 @@
 }
 
 .card .card-header.card-header-icon + .card-content .card-title {
-        margin-top: 0;
+    margin-top: 0;
     padding-bottom: 15px;
 }
 
@@ -44,9 +44,23 @@
     border-bottom:1px solid #eeeeee;
 }
 
+.mission img {
+        margin-right:10px;
+        width: 64px;
+        height: 64px;
+}
+
 .card-header {
     width: 350px;
-    }
+}
+
+.card-header img {
+    float:left;
+    height:70px;
+    width:70px; 
+    margin-right:10px
+}
+
 
 @media (max-width: 768px){
 .card-profile,
