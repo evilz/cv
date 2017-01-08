@@ -73,4 +73,9 @@
 .card-header {
     width: auto;
     }
+
+    .header-info {
+    margin: 20px auto;
+    width: 65%;
+}
 }
