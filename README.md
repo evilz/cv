@@ -1,0 +1,6 @@
+- open index.html in chrome
+- print using `Save in PDF fomat`
+    - Paper : A4
+    - Marge : None
+    - With background
+    - Size : 60%

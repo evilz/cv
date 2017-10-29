@@ -1,0 +1,49 @@
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400";
+
+.content dd {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.is-dark hr:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+
+hr:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #dbdbdb;
+}
+
+.progress {
+  border-radius: 0;
+}
+
+.xp {
+  margin-bottom: 100px!important;
+}
+
+img.has-border {
+  border: solid 1px #dbdbdb;
+}
+
+.is-left-icon {
+  margin-right: 15px;
+}
+
+.break {
+    margin-top: 48px;
+  page-break-before: always;
+}
+
