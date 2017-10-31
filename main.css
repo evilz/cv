@@ -31,7 +31,7 @@ hr:before {
 }
 
 .xp {
-  margin-bottom: 100px!important;
+  margin-bottom: 30px!important;
 }
 
 img.has-border {
@@ -47,3 +47,6 @@ img.has-border {
   page-break-before: always;
 }
 
+.section {
+  padding: 1.5rem 1.5rem;
+}
