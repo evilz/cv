@@ -1,0 +1,109 @@
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400";
+
+@media print {
+  .page-header,
+  .page-header-space {
+    height: 30px;
+  }
+
+
+  .page-footer,
+  .page-footer-space {
+    height: 50px;
+  }
+
+  .page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .page-header {
+    position: fixed;
+    top: 0mm;
+    width: 100%;
+    
+  }
+
+  
+}
+
+.page {
+  page-break-after: always;
+}
+
+body{
+  background: grey;
+}
+
+.container {
+  background: white;
+}
+
+.diag {
+  position: relative;
+  height: 250px;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+  /* change the calc height to a percentage height to get alternate responsive behavior*/
+  z-index: 10000000;
+}
+
+.diag-footer {
+  position: relative;
+  height: 50px;
+
+  clip-path: polygon(0 100%, 0 50%, 100% 0, 100% 100%);
+  position: fixed;
+  bottom: 0;
+}
+
+.hero-body {
+  padding: 1.5rem 1rem;
+}
+
+.content dd {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.is-dark hr:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+
+hr:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #dbdbdb;
+}
+
+.progress {
+  border-radius: 0;
+}
+
+.xp {
+  margin-bottom: 30px !important;
+}
+
+img.has-border {
+  border: solid 1px #dbdbdb;
+}
+
+.is-left-icon {
+  margin-right: 15px;
+}
+
+.break {
+  page-break-before: always;
+}
